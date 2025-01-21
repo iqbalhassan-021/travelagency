@@ -6,10 +6,10 @@ const Hero = () => {
             <div className="hero center">
                 <div className="hero-text center">
                     <h1 id="heading">
-                        <span className="first-word">
-                            HAJJ
-                        </span>
-                        UMRAH
+                   
+                        HAJJ
+                        
+                        UMRAH 
                     </h1>
                     <p>
                         Hajj and Umrah packages are available at low and affordable prices

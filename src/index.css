@@ -80,7 +80,7 @@ color: black;
 .navbar{
   height: auto;
   width: 100%;
-
+  z-index: 10;
   padding: 20px;
   background-color: transparent;
 

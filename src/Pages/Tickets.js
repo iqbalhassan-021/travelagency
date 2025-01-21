@@ -4,9 +4,9 @@ import Navbar from '../Components/NavBar'
 import TitleBar from '../Components/TitleBar'
 
 import Footer from '../Components/Footer'
-import AboutComp from '../Components/AboutComp'
+import Tickets from '../Components/TicketsComp'
 
-const About = () => {
+const TicketsPage = () => {
   return (
     <div class="container">
         <Notification backgroundColor='white' Color='black'/>
@@ -14,11 +14,11 @@ const About = () => {
         <div class="container">
 
             <div class="about-section">
-                <TitleBar title="About Us"/>
+                <TitleBar title="Tickets"/>
             </div>
 
-            <div class="about-text" style={{padding:'0%'}}>
-               <AboutComp/>
+            <div class="about-text" style={{padding:'20px'}}>
+               <Tickets/>
             </div>
         </div>
         <Footer/>
@@ -26,4 +26,4 @@ const About = () => {
   )
 }
 
-export default About
+export default TicketsPage
