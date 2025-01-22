@@ -4,9 +4,11 @@ import Navbar from '../Components/NavBar'
 import TitleBar from '../Components/TitleBar'
 
 import Footer from '../Components/Footer'
-import BookVisaForm from '../Components/BookVisaForm'
+import BookTicketForm from '../Components/BookTicketForm'
 
-const BookVisaPage = () => {
+
+
+const TicketsPage = () => {
   return (
     <div class="container">
         <Notification backgroundColor='white' Color='black'/>
@@ -14,16 +16,16 @@ const BookVisaPage = () => {
         <div class="container">
 
             <div class="about-section">
-                <TitleBar title="Book a Visa"/>
+                <TitleBar title="Book Tickets"/>
             </div>
 
             <div class="about-text" style={{padding:'0px'}}>
-              <BookVisaForm/>
+               <BookTicketForm/>
             </div>
         </div>
-        <Footer marginTop='0%'/>
+        <Footer/>
     </div>
   )
 }
 
-export default BookVisaPage
+export default TicketsPage

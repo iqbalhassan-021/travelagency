@@ -21,7 +21,7 @@ const BookTicketPage = () => {
               <BookTicketForm/>
             </div>
         </div>
-        <Footer/>
+        <Footer marginTop='0%'/>
     </div>
   )
 }

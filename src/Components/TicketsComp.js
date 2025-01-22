@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const TicketsComp = () => {
   return (
@@ -43,9 +44,9 @@ const TicketsComp = () => {
           </div>
 
           <div className="ticket-tab">
-            <a href="#" className="no-decoration primary-button">
+            <Link to="/book-ticket" className="no-decoration primary-button">
               Book Now
-            </a>
+            </Link>
           </div>
         </div>
       </div>

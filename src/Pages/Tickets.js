@@ -6,6 +6,8 @@ import TitleBar from '../Components/TitleBar'
 import Footer from '../Components/Footer'
 import Tickets from '../Components/TicketsComp'
 
+
+
 const TicketsPage = () => {
   return (
     <div class="container">
@@ -21,7 +23,7 @@ const TicketsPage = () => {
                <Tickets/>
             </div>
         </div>
-        <Footer/>
+        <Footer marginTop='0%'/>
     </div>
   )
 }

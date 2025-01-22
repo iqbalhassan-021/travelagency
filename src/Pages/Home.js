@@ -28,7 +28,7 @@ const Home = () => {
      <WhyUs/>
      <ContactForm/>
      <QuickSection/>
-     <Footer/>
+     <Footer marginTop='20%'/>
      
     </div>
   )

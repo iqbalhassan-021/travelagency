@@ -4,7 +4,7 @@ import Navbar from '../Components/NavBar'
 import TitleBar from '../Components/TitleBar'
 
 import Footer from '../Components/Footer'
-import BookTicketForm from '../Components/BookTicketForm'
+import BookAppointmentForm from '../Components/BookAppointmentForm'
 
 const BookTicketPage = () => {
   return (
@@ -18,10 +18,10 @@ const BookTicketPage = () => {
             </div>
 
             <div class="about-text" style={{padding:'0px'}}>
-              <BookTicketForm/>
+              <BookAppointmentForm/>
             </div>
         </div>
-        <Footer/>
+        <Footer marginTop='0%'/>
     </div>
   )
 }

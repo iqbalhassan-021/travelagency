@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const AvailablePackages = () => {
+const AppointmentsComp = () => {
     const packages = [
         {
             country: "Country Name 1",
@@ -51,7 +51,7 @@ const AvailablePackages = () => {
                             
                             {/* Book Now Button */}
                             <div className="book">
-                            <Link to="/book-visa" className="no-decoration primary-button rounded">
+                                  <Link to="/book-appointment"className="no-decoration primary-button rounded">
                                     Book Now
                                 </Link>
                             </div>
@@ -63,4 +63,4 @@ const AvailablePackages = () => {
     );
 };
 
-export default AvailablePackages;
+export default AppointmentsComp;

@@ -21,7 +21,7 @@ const VisaPage = () => {
               <AvailablePackages/>
             </div>
         </div>
-        <Footer/>
+        <Footer marginTop='0%'/>
     </div>
   )
 }

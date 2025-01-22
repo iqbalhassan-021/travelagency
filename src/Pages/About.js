@@ -21,7 +21,7 @@ const About = () => {
                <AboutComp/>
             </div>
         </div>
-        <Footer/>
+        <Footer marginTop='0%'/>
     </div>
   )
 }

@@ -4,7 +4,7 @@ import Navbar from '../Components/NavBar'
 import TitleBar from '../Components/TitleBar'
 
 import Footer from '../Components/Footer'
-import AvailablePackages from '../Components/AvailablePackages'
+import AppointmentsComp from '../Components/AppointmentsComp'
 
 const BookAppointmetsPage = () => {
   return (
@@ -14,14 +14,14 @@ const BookAppointmetsPage = () => {
         <div class="container">
 
             <div class="about-section">
-                <TitleBar title="Book Appoitment"/>
+                <TitleBar title="Appoitment"/>
             </div>
 
             <div class="about-text" style={{padding:'0px'}}>
-              <AvailablePackages/>
+              <AppointmentsComp/>
             </div>
         </div>
-        <Footer/>
+        <Footer marginTop='0%'/>
     </div>
   )
 }

@@ -20,7 +20,7 @@ const Contact = () => {
                 <ContactForm/>
             </div>
         </div>
-        <Footer/>
+        <Footer marginTop='0%'/>
     </div>
   )
 }
